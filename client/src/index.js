@@ -18,3 +18,15 @@ root.render(
   </React.StrictMode>
 );
 
+
+// ReactDOM.render(
+//     <Context.Provider value={{
+//         user: new UserStore(),
+//         devices: new DeviceStore(),
+//     }}>
+//         <App />
+//     </Context.Provider>,
+//     document.getElementById('root')
+// )
+
+
