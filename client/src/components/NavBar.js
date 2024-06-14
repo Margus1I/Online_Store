@@ -11,9 +11,9 @@ const NavBar = observer(() => {
             <Container>
                 <NavLink href={SHOP_ROUTE} style={{color:'white'}}>Смартофоны</NavLink>
                 {user.isAuth ?
-                    <Nav className="ml-auto">
-                        <Button variant={"outline-light"} className="mr-10">Админ панель</Button>
-                        <Button variant={"outline-light"} className="ml-10">Войти</Button>
+                    <Nav className="ml-auto, column-gap-2">
+                        <Button variant={"outline-light"}>Админ панель</Button>
+                        <Button variant={"outline-light"}>Войти</Button>
                     </Nav>
                     :
                     <Nav className="ml-auto">
