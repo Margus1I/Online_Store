@@ -11,22 +11,12 @@ root.render(
   <React.StrictMode>
       <Context.Provider value={{
           user: new UserStore(),
-          devices: new DeviceStore(),
+          device: new DeviceStore(),
       }}>
         <App />
       </Context.Provider>
   </React.StrictMode>
 );
 
-
-// ReactDOM.render(
-//     <Context.Provider value={{
-//         user: new UserStore(),
-//         devices: new DeviceStore(),
-//     }}>
-//         <App />
-//     </Context.Provider>,
-//     document.getElementById('root')
-// )
 
 
